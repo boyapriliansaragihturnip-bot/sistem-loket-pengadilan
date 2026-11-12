@@ -1,0 +1,60 @@
+/* =================================================_ */
+/* Custom Stylesheet - Sistem Informasi Antrian Pengadilan */
+/* =================================================_ */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+}
+
+/* Navbar Styling */
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* Card Modern Styling */
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-weight: 600;
+}
+
+/* Display TV Fullscreen Mode */
+.tv-container {
+    background-color: #0f172a;
+    color: #ffffff;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.tv-number {
+    font-size: 8rem;
+    font-weight: 800;
+    color: #38bdf8;
+    line-height: 1;
+}
+
+/* Iklan Fullscreen Mode */
+.iklan-container {
+    background-color: #000000;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iklan-media {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
